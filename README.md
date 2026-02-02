@@ -16,15 +16,15 @@ The result is a smarter, safer, and more reliable customer support system.
 
 🧠 What is RAG?
 
-Retrieval-Augmented Generation works in three steps:
+*Retrieval-Augmented Generation works in three steps:
 
-Retrieve relevant documents using vector similarity search
+*Retrieve relevant documents using vector similarity search
 
-Augment the user query with retrieved content
+*Augment the user query with retrieved content
 
-Generate a response grounded in the actual documentation
+*Generate a response grounded in the actual documentation
 
-This significantly reduces hallucinations and ensures factual answers.
+*This significantly reduces hallucinations and ensures factual answers.
 
 🏗️ System Architecture
 User Query
@@ -42,33 +42,33 @@ Final Answer
 
 🔄 Data Ingestion Pipeline
 
-Load customer support documents
+*Load customer support documents
 
-Clean and normalize text
+*Clean and normalize text
 
-Split text into semantic chunks
+*Split text into semantic chunks
 
-Generate vector embeddings
+*Generate vector embeddings
 
-Store embeddings in a vector database
+*Store embeddings in a vector database
 
 📌 Chunking Strategy
 
-Chunk size: 300–500 tokens
+*Chunk size: 300–500 tokens
 
-Overlap: 50–100 tokens
+*Overlap: 50–100 tokens
 
-Ensures contextual continuity
+*Ensures contextual continuity
 
 🔍 Retrieval Process
 
-User query is converted into an embedding
+*User query is converted into an embedding
 
-Vector database performs similarity search
+*Vector database performs similarity search
 
-Top-K relevant document chunks are retrieved
+*Top-K relevant document chunks are retrieved
 
-Retrieved context is passed to the LLM
+*Retrieved context is passed to the LLM
 
 ✨ Answer Generation
 
@@ -128,11 +128,11 @@ No training on customer data
 
 🧪 Evaluation Metrics
 
-Retrieval relevance
+*Retrieval relevance
 
-Answer accuracy
+*Answer accuracy
 
-Response latency
+*Response latency
 
 Customer satisfaction (CSAT)
 
