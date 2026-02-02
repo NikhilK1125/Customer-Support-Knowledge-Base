@@ -39,32 +39,6 @@ LLM with Context
    ↓
 Final Answer
 
-📁 Project Structure
-customer-support-rag/
-│
-├── data/
-│   ├── raw_docs/              # FAQs, policies, guides
-│   └── processed/             # Cleaned & chunked docs
-│
-├── embeddings/
-│   ├── embed_docs.py          # Generate embeddings
-│   └── vector_store/          # Stored embeddings
-│
-├── retriever/
-│   └── search.py              # Document retrieval logic
-│
-├── generator/
-│   └── answer_generator.py    # LLM response generation
-│
-├── app/
-│   └── chatbot.py             # Application interface
-│
-├── config/
-│   └── settings.yaml          # Configuration settings
-│
-├── requirements.txt
-├── CONTRIBUTING.md
-└── README.md
 
 🔄 Data Ingestion Pipeline
 
